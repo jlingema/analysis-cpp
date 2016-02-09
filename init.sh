@@ -3,5 +3,7 @@ export PATH=/afs/cern.ch/sw/lcg/releases/LCG_80/fastjet/3.1.1/x86_64-slc6-gcc49-
 source /afs/cern.ch/sw/lcg/contrib/gcc/4.9.3/x86_64-slc6/setup.sh
 source /afs/cern.ch/exp/fcc/sw/0.6/LCG_80/ROOT/6.04.06/x86_64-slc6-gcc49-opt/bin/thisroot.sh
 
+export PODIO=/afs/cern.ch/exp/fcc/sw/0.6/podio/0.1/x86_64-slc6-gcc49-opt/
+export FCCEDM=/afs/cern.ch/exp/fcc/sw/0.6/fcc-edm/0.2/x86_64-slc6-gcc49-opt/
 export ANALYSISCPP=$PWD/install
 export LD_LIBRARY_PATH=$ANALYSISCPP/lib:$LD_LIBRARY_PATH
